@@ -28,4 +28,33 @@ public class ProjectEuler_Problem1 {
 
         System.out.println("Sum of all the multiples of 3 or 5 below 1000 is: " + (sum_3 + sum_5));
     }
+
+// Other solutions
+//    1.
+/*    int i,sum=0;
+        for(i=0;i<1000;i++) {
+        if (i % 3 == 0 || i % 5 == 0) {
+            sum = sum + i;
+        }
+        System.out.println(sum);
+    }*/
+
+//    2.
+/*  int i = 0;
+    int sum = 0;
+
+        for(i = 1; i < 1000; i++)
+    {
+        if(i%3 == 0)
+        {
+            sum += i;
+            continue;
+        }
+        else if (i%5 == 0)
+        {
+            sum += i;
+        }
+    }
+        System.out.println(sum);
+*/
 }
